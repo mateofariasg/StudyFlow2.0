@@ -27,4 +27,3 @@ legacy/                       versión anterior (HTML/JS) conservada como refere
 ```
 
 Las rutas usan `HashRouter` (`/#/dashboard`), por lo que funciona en cualquier hosting estático sin configuración extra.
-Los datos guardados en `localStorage` (`sf_study`, `sf_reading`, `sf_method_*`, etc.) mantienen el mismo formato, así que no se pierde nada al migrar.
