@@ -1,15 +1,5 @@
 # StudyFlow+ 2.0 (React)
 
-Frontend migrado de HTML/JS puro a **React 19 + Vite**. El backend (`studyflow-backend/`, Express + MongoDB) **no cambió**: la API es la misma.
-
-## Cómo ejecutarlo
-
-```bash
-npm install
-npm run dev        # http://localhost:5173
-npm run build      # genera dist/
-npm run preview    # prueba el build
-```
 
 En desarrollo, las peticiones a `/api` pasan por el proxy de Vite hacia el backend de Render (así no choca con CORS).
 Para usar otro backend (por ejemplo uno local), crea un archivo `.env`:
