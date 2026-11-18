@@ -1,0 +1,19 @@
+/* Ajustes añadidos en la migración a React (el resto del diseño es style.css sin cambios). */
+
+/* Chip de tema seleccionado (Configuración → Apariencia) */
+.theme-chip.active {
+  border-color: var(--accent);
+  color: var(--text-primary);
+  background: var(--accent-dim);
+}
+
+/* Pomodoro: separa el aro, los puntos de ciclo y los botones (antes se montaban) */
+#pomo-section:not(.hidden) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Los enlaces del menú lateral ahora son <NavLink>, no <a> sin href */
+a.menu-item { cursor: pointer; }
