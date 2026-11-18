@@ -21,6 +21,7 @@ connectDB();
 const allowedOrigins = [
     'https://proyectojmv.netlify.app',
     'https://studyfloowww.netlify.app',
+    'https://studyflowjc.netlify.app',
     'http://localhost:5000',
     'http://127.0.0.1:5500'
 ];
